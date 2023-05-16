@@ -1,0 +1,16 @@
+A function is a block of code that contains a sequence of instructions that are executed when the function is invoked.
+Data passed in the functions are known as function parameters.
+
+Types
+
+1. Parameterized functions
+2. Non-parameterized functions
+
+1. Parameterized functions
+Functions that can receive parameters are parameterized functions.
+
+def add_one(val):
+  print("Function got value",val+1)
+  return
+add_one(1)
+

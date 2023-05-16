@@ -1,0 +1,18 @@
+A function is a block of code that is used to perform a single action.
+A module is a Python file containing a set of functions and variables of all types (arrays, dictionaries, objects, etc.),
+that you want to use in your application.
+
+Module Creation
+----------------
+To create a module, create a python file with a .py extension.
+
+Use a Module
+--------------
+Modules created with a .py extension can be used with an import statement.
+
+Example
+--------
+
+import math
+print(math.cos(0.0))
+print(math.radians(275))
