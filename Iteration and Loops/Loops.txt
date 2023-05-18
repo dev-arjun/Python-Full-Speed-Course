@@ -1,0 +1,70 @@
+Iteration & Loops
+-----------------
+
+Loops are used in computer programming to automate repetitive tasks.
+
+Types of Loops in Python
+------------------------
+
+In python, there are two types of loops.
+----------------------------------------
+1. For Loop
+2. While Loop
+
+
+For Loop
+---------
+A for loop is used for iterating over a sequence of items.
+
+The general syntax for creating a for loop is:
+
+for index in sequence:
+    statement
+
+Looping Through a List
+-----------------------
+The “for” loop allows you to iterate over all items of a list,
+such that you can do whatever you want with each item.
+
+for value in [0, 1, 2, 3, 4, 5]:
+  print(value * value)
+
+Looping Using the range
+------------------------
+The range() function allows looping through a set of code a specified number of times.
+
+Looping Using enumerate
+------------------------
+Sometimes you may need both things (indexes and values), and you can use the "enumerate" function:
+
+for i, value in enumerate(mylist):
+  print("Index:", i, "Value:", value)
+
+Looping Through a String
+------------------------
+Strings contain a sequence of characters so that they can be iterated.
+
+Example
+--------
+for x in "Full Speed Python":
+  print(x)
+
+
+While Loop
+----------
+we also have the "while" statement that allows us to repeat a sequence of instructions
+while a specified condition is true.
+
+General syntax
+---------------
+while(condition):
+    statement
+
+Example
+--------
+n = 10
+while n > 0:
+  print(n)
+  n = n-1
+
+  

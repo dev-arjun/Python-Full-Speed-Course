@@ -1,0 +1,14 @@
+Class
+In object-oriented programming (OOP), a class is a structure that allows you to group together 
+a set of properties (called attributes) and functions (called methods) to manipulate those properties
+
+Take the following class that defines a person with the name and age properties and the greet() method.
+
+class Person:
+
+      def __init__(self, name, age): # class constructor
+          self.name = name # class variable
+          self.age = age # class variable
+
+      def greet(self): # class function to print a greeting
+          print("Hello, my name is %s!" % self.name)
